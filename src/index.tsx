@@ -7,4 +7,4 @@ const rootContainer = document.getElementById("root") as HTMLDivElement;
 
 ReactDOM.createRoot(rootContainer).render(
     <App />
-)
+);
