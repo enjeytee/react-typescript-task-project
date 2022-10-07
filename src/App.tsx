@@ -43,7 +43,7 @@ const App: React.FC = () => {
       onDragEnd={onDragEnd}
     >
       <div className="App">
-        <span className="heading">Taskify</span>
+        <span className="heading">Task Monitoring</span>
         <InputField 
           todo={todo} 
           setTodo={setTodo}

@@ -71,7 +71,7 @@ const App = () => {
     };
     return (react_1.default.createElement(react_beautiful_dnd_1.DragDropContext, { onDragEnd: onDragEnd },
         react_1.default.createElement("div", { className: "App" },
-            react_1.default.createElement("span", { className: "heading" }, "Taskify"),
+            react_1.default.createElement("span", { className: "heading" }, "Task Monitoring"),
             react_1.default.createElement(InputField_jsx_1.default, { todo: todo, setTodo: setTodo, handleAdd: handleAdd }),
             react_1.default.createElement(TodoList_jsx_1.default, { todos: todos, setTodos: setTodos, completedTodos: completedTodos, setCompletedTodos: setCompletedTodos }))));
 };
